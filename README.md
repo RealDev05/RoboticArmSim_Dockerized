@@ -50,4 +50,4 @@ This is already happening when you run ```run.sh``` but if you need to stop it f
   ros2 topic pub --once /arm_angles std_msgs/msg/Float64MultiArray "{data: [0.5, 0.3, -0.5, 0.3, 0.5]}"
   ```
 - You can receive feedback about the position from ```/world/arm_world/model/five_dof_arm/joint_state``` topic
-- You can add things to [```env_setup.bash```]() which you want to add to ```.bashrc``` as the ```env_setup.sh``` is sourced in the ```.bashrc``` by default. So you won't have to source something or export something everytime.
+- You can add things to [env_setup.bash](workspace/env_setup.sh) which you want to add to ```.bashrc``` as the ```env_setup.sh``` is sourced in the ```.bashrc``` by default. So you won't have to source something or export something everytime.
