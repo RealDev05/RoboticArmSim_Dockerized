@@ -4,7 +4,7 @@ This simulation uses the latest robotic arm of Horizon as per (23/04/2025).
 - #### My contact details
   - ```+91 9526393226```
   - ```binil10032005@gmail.com```
-![Example Image](/blob/[branch]/image.jpg?raw=true)
+![Example Image](example.png)
 ## Setup
 - ### Clone the repo to your desired folder recursively
   ```shell
