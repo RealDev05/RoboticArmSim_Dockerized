@@ -1,6 +1,6 @@
 # A Dcokerized version of Robotic Arm Simulation of Team Horizon, CUSAT
 This simulation uses the latest robotic arm of Horizon as per (23/04/2025). 
-- ## Note : And since it uses Horizon Repositories, You may not be able to use this. Contact any of Team Horizon Member to get permission or alternative.
+- #### Note : And since it uses Horizon Repositories, You may not be able to use this. Contact any of Team Horizon Member to get permission or alternative.
 ## Setup
 - ### Clone the repo to your desired folder recursively
   ```shell
