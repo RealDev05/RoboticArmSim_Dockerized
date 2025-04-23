@@ -1,5 +1,7 @@
+# A Dcokerized version of Robotic Arm Simulation Team Horizon, CUSAT
+This simulation uses the latest robotic arm of Horizon as per (23/04/2025).
 ## Setup
-- Clone the repo to your desired folder recursively
+- ### Clone the repo to your desired folder recursively
   ```shell
   git clone --recurse-submodules git@github.com:RealDev05/RoboticArmSim_Dockerized.git
   ```
@@ -7,7 +9,7 @@
   ```shell
   git submodule update --init --recursive
   ```
-- Build image
+- ### Build image
   ```shell
    cd RoboticArmSim_Dockerized
    sudo docker build -t arm_simulation .
