@@ -1,1 +1,1 @@
-sudo docker exec -it arm_simulation bash
+sudo docker exec -it -u binil arm_simulation bash
