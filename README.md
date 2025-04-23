@@ -2,7 +2,7 @@
 This simulation uses the latest robotic arm of Horizon as per (23/04/2025). 
 - #### Note : And since it uses Horizon Repositories, You may not be able to use this. Contact any of Team Horizon Member to get permission or alternative.
 - #### My contact details
-- - ```+91 9526393226```
+  - ```+91 9526393226```
   - ```binil10032005@gmail.com```
 ## Setup
 - ### Clone the repo to your desired folder recursively
