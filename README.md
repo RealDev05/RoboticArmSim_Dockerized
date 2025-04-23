@@ -34,3 +34,19 @@ This is already happening when you run ```run.sh``` but if you need to stop it f
 ```shell
 ./stop.sh
 ```
+## Execution
+- To launch the simulation, run
+  ```
+  ros2 launch my_robotic_arm_sim sim_launch.py
+  ```
+- To test the controls, run
+  ```
+  ros2 run my_robotic_arm_sim arm_control_panel
+  ```
+---
+## API
+- You can move the robotic arm by publishing to ```/arm_angles``` topic or Alternatively run
+  ```shell
+  ros2 topic pub --once /arm_angles std_msgs/msg/Float64MultiArray "{data: [0.5, 0.3, -0.5, 0.3, 0.5]}"
+  ```
+- You can receive feedback about the position from ```/world/arm_world/model/five_dof_arm/joint_state``` topic
