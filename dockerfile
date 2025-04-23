@@ -11,9 +11,8 @@ RUN apt-get update && apt-get install -y curl gnupg lsb-release \
 # Install ROS 2 & Gazebo dependencies
 RUN apt-get update && apt-get install -y \
     ros-${ROS_DISTRO}-rviz2 \
-    ros-${ROS_DISTRO}-gazebo-ros-pkgs \
-    ros-${ROS_DISTRO}-ros-gzharmonic \
     gz-harmonic \
+    ros-${ROS_DISTRO}-ros-gzharmonic \
     python3-colcon-common-extensions \
     build-essential \
     git \

@@ -7,7 +7,7 @@ docker run -t -d \
   --env="DISPLAY" \
   --env="QT_X11_NO_MITSHM=1" \
   -v $(realpath ../workspace/src):/home/binil/ros2_ws/src \
-  -v $(realpath ./env_setup.sh):/home/binil/env_setup.sh \
+  -v $(realpath ../workspace/env_setup.sh):/home/binil/env_setup.sh \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
   --workdir=/home/binil/ros2_ws \
   --device=/dev/video0:/dev/video0 \
